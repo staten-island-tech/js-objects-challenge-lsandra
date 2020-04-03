@@ -1,4 +1,4 @@
-// console.log("connected")
+console.log("connected")
 
 // //strings are teh first primitive data type 
 // let string ="string"; //strings can be stated with either single quotes
@@ -100,11 +100,11 @@ if (stoplight == "green"){
 
 let KristyIntolerant = true;
 let BaoBaoIntolerant = false;
-if(KristyIntolerance === true && BaoBaoIntolerance === true){
+if(KristyIntolerant === true && BaoBaoIntolerant === true){
     console.log("They should get milk and almond milk");
-}else if ( KristyIntolerance === true && BaoBaoIntolerance === false){
+}else if ( KristyIntolerant === true && BaoBaoIntolerant === false){
     console.log("They should only get almond milk");
-}else if ( KristyIntolerance === false && BaoBaoIntolerance == true){
+}else if ( KristyIntolerant === false && BaoBaoIntolerant == true){
     console.log("They should get only milk")
 }
 
@@ -119,12 +119,13 @@ if(temperature < 68){
     console.log("too hot")
 }
 
-const students = [ "Riya","Omor","Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
-const result = students.filter( word => word.length >5 );
+students = [ "Riya","Omor","Alan", "Jaiyu", "Michael", "Lisa", "Richard"];
+result = students.filter( word => word.length >5 );
 console.log(result);
 
-const students = [ "Riya","Omor", "Alan", " Jaiyu", " Michael", " Lisa", "Richard"];
+students = [ "Riya","Omor", "Alan", " Jaiyu", " Michael", " Lisa", "Richard"];
 console.log(students.includes("junshen"));
 
-const students = [ "Riya","Omor", "Alan", " Jaiyu", " Michael", " Lisa", "Richard"];
+students = [ "Riya","Omor", "Alan", " Jaiyu", " Michael", " Lisa", "Richard"];
 console.log(students.includes("Alan" || "Savva"));
+
